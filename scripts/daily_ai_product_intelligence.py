@@ -8,6 +8,7 @@ import datetime as dt
 import json
 import os
 import pathlib
+import re
 import urllib.error
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -114,6 +115,12 @@ def generate_brief(today: str, *, dry_run: bool = False) -> str:
     return text
 
 
+def sanitize_error(message: str) -> str:
+    message = re.sub(r"sk-[A-Za-z0-9_-]+", "sk-[REDACTED]", message)
+    message = re.sub(r"(Bearer\\s+)[A-Za-z0-9._-]+", r"\\1[REDACTED]", message)
+    return message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Generate test content without calling OpenAI.")
@@ -132,4 +139,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except Exception as exc:
+        message = sanitize_error(str(exc))
+        print(f"::error title=Generate brief failed::{message}")
+        raise

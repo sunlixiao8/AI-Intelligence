@@ -37,6 +37,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1' }}
         run: |
+          if [ "${{ github.event.inputs.dry_run }}" != "true" ] && [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error title=Missing OpenAI key::OPENAI_API_KEY is empty. Check repository Secrets > Actions."
+            exit 1
+          fi
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             python scripts/daily_ai_product_intelligence.py --dry-run
           else
