@@ -1,0 +1,92 @@
+name: Daily AI Product Intelligence
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 Asia/Shanghai.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Send a test message without calling OpenAI"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  generate-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate brief
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1' }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python scripts/daily_ai_product_intelligence.py --dry-run
+          else
+            python scripts/daily_ai_product_intelligence.py
+          fi
+
+      - name: Build static site
+        run: python scripts/build_daily_site.py
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Compute today page URL
+        id: today
+        run: |
+          TODAY="$(TZ=Asia/Shanghai date +%F)"
+          echo "date=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "url=${{ steps.deployment.outputs.page_url }}daily/$TODAY.html" >> "$GITHUB_OUTPUT"
+
+      - name: Push brief with WeChat test account
+        env:
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
+          WECHAT_TEMPLATE_ID: ${{ secrets.WECHAT_TEMPLATE_ID }}
+          WECHAT_DETAIL_URL: ${{ steps.today.outputs.url }}
+        run: |
+          if [ -n "$WECHAT_APP_ID" ] && [ -n "$WECHAT_APP_SECRET" ] && [ -n "$WECHAT_OPENID" ] && [ -n "$WECHAT_TEMPLATE_ID" ]; then
+            node scripts/wechat_test_push.js
+          else
+            echo "WeChat test account secrets are incomplete; skip WeChat test account push."
+          fi
+
+      - name: Commit generated brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai-product-intelligence/daily
+          if git diff --cached --quiet; then
+            echo "No brief changes to commit."
+          else
+            git commit -m "Add daily AI product intelligence brief"
+            git push
+          fi
