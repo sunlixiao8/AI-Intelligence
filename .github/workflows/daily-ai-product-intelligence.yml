@@ -9,7 +9,7 @@ on:
       dry_run:
         description: "Send a test message without calling OpenAI"
         required: false
-        default: "false"
+        default: "true"
 
 permissions:
   contents: write
