@@ -1,4 +1,14 @@
 {
+  "speechmatics.com/best-ears-in-ai": {
+    "featured_count": 1,
+    "first_featured": "2026-06-14",
+    "last_featured": "2026-06-14",
+    "last_score": 13,
+    "name": "Speechmatics - API for Voice AI Agents",
+    "source_name": "There's An AI For That",
+    "source_url": "https://theresanaiforthat.com/",
+    "url": "https://www.speechmatics.com/best-ears-in-ai?utm_source=taaft&utm_medium=paid-media&utm_campaign=voice-agents&utm_content=newsletter"
+  },
   "trustmrr.com/startup/ai-girlfriend": {
     "featured_count": 1,
     "first_featured": "2026-06-13",
@@ -19,6 +29,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/backlinker-ai"
   },
+  "trustmrr.com/startup/chariot-ai": {
+    "featured_count": 1,
+    "first_featured": "2026-06-14",
+    "last_featured": "2026-06-14",
+    "last_score": 14,
+    "name": "Chariot AI",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/chariot-ai"
+  },
   "trustmrr.com/startup/hairlab": {
     "featured_count": 1,
     "first_featured": "2026-06-13",
@@ -29,6 +49,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/hairlab"
   },
+  "trustmrr.com/startup/interview-llm": {
+    "featured_count": 1,
+    "first_featured": "2026-06-14",
+    "last_featured": "2026-06-14",
+    "last_score": 14,
+    "name": "Interview Llm",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/interview-llm"
+  },
   "trustmrr.com/startup/quizgpt": {
     "featured_count": 1,
     "first_featured": "2026-06-13",
@@ -38,5 +68,15 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/quizgpt"
+  },
+  "trustmrr.com/startup/vercel-analytics-verceltics": {
+    "featured_count": 1,
+    "first_featured": "2026-06-14",
+    "last_featured": "2026-06-14",
+    "last_score": 11,
+    "name": "Vercel Analytics Verceltics",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/vercel-analytics-verceltics"
   }
 }
