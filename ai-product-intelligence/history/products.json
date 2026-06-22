@@ -209,6 +209,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/iptv-player-vpn-app-bundle"
   },
+  "trustmrr.com/startup/kickly-pronos-coupe-du-monde": {
+    "featured_count": 1,
+    "first_featured": "2026-06-22",
+    "last_featured": "2026-06-22",
+    "last_score": 11,
+    "name": "Kickly Pronos Coupe Du Monde",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/kickly-pronos-coupe-du-monde"
+  },
   "trustmrr.com/startup/leadfind": {
     "featured_count": 1,
     "first_featured": "2026-06-20",
@@ -289,6 +299,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/quizgpt"
   },
+  "trustmrr.com/startup/quizzy-app": {
+    "featured_count": 1,
+    "first_featured": "2026-06-22",
+    "last_featured": "2026-06-22",
+    "last_score": 11,
+    "name": "Quizzy App",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/quizzy-app"
+  },
   "trustmrr.com/startup/rareroles": {
     "featured_count": 1,
     "first_featured": "2026-06-21",
@@ -318,6 +338,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/roam"
+  },
+  "trustmrr.com/startup/sajda-salah-time-app-lock": {
+    "featured_count": 1,
+    "first_featured": "2026-06-22",
+    "last_featured": "2026-06-22",
+    "last_score": 11,
+    "name": "Sajda Salah Time App Lock",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/sajda-salah-time-app-lock"
   },
   "trustmrr.com/startup/stealth-venture-31": {
     "featured_count": 1,
@@ -358,5 +388,15 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/vercel-analytics-verceltics"
+  },
+  "trustmrr.com/startup/verifieddr": {
+    "featured_count": 1,
+    "first_featured": "2026-06-22",
+    "last_featured": "2026-06-22",
+    "last_score": 11,
+    "name": "Verifieddr",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/verifieddr"
   }
 }
