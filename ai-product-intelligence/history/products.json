@@ -39,6 +39,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/aceface"
   },
+  "trustmrr.com/startup/advantage-player": {
+    "featured_count": 1,
+    "first_featured": "2026-06-23",
+    "last_featured": "2026-06-23",
+    "last_score": 11,
+    "name": "Advantage Player",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/advantage-player"
+  },
   "trustmrr.com/startup/ai-album-cover-generator": {
     "featured_count": 1,
     "first_featured": "2026-06-16",
@@ -158,6 +168,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/digital-scale"
+  },
+  "trustmrr.com/startup/facemax-ai-face-rating-plam": {
+    "featured_count": 1,
+    "first_featured": "2026-06-23",
+    "last_featured": "2026-06-23",
+    "last_score": 16,
+    "name": "Facemax AI Face Rating Plam",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/facemax-ai-face-rating-plam"
   },
   "trustmrr.com/startup/glowly": {
     "featured_count": 1,
@@ -329,6 +349,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/reloop"
   },
+  "trustmrr.com/startup/retroui": {
+    "featured_count": 1,
+    "first_featured": "2026-06-23",
+    "last_featured": "2026-06-23",
+    "last_score": 11,
+    "name": "Retroui",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/retroui"
+  },
   "trustmrr.com/startup/roam": {
     "featured_count": 1,
     "first_featured": "2026-06-15",
@@ -398,5 +428,15 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/verifieddr"
+  },
+  "trustmrr.com/startup/zevor-ai": {
+    "featured_count": 1,
+    "first_featured": "2026-06-23",
+    "last_featured": "2026-06-23",
+    "last_score": 14,
+    "name": "Zevor AI",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/zevor-ai"
   }
 }
