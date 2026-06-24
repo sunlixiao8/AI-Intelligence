@@ -279,6 +279,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/mobile-app-4"
   },
+  "trustmrr.com/startup/motionfly": {
+    "featured_count": 1,
+    "first_featured": "2026-06-24",
+    "last_featured": "2026-06-24",
+    "last_score": 11,
+    "name": "Motionfly",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/motionfly"
+  },
   "trustmrr.com/startup/murphyproxies": {
     "featured_count": 1,
     "first_featured": "2026-06-16",
@@ -308,6 +318,26 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/onpodium"
+  },
+  "trustmrr.com/startup/ploxto": {
+    "featured_count": 1,
+    "first_featured": "2026-06-24",
+    "last_featured": "2026-06-24",
+    "last_score": 11,
+    "name": "Ploxto",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/ploxto"
+  },
+  "trustmrr.com/startup/plume-word-of-the-day": {
+    "featured_count": 1,
+    "first_featured": "2026-06-24",
+    "last_featured": "2026-06-24",
+    "last_score": 11,
+    "name": "Plume Word Of The Day",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/plume-word-of-the-day"
   },
   "trustmrr.com/startup/quizgpt": {
     "featured_count": 1,
@@ -408,6 +438,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/valycode"
+  },
+  "trustmrr.com/startup/ventura-client": {
+    "featured_count": 1,
+    "first_featured": "2026-06-24",
+    "last_featured": "2026-06-24",
+    "last_score": 11,
+    "name": "Ventura Client",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/ventura-client"
   },
   "trustmrr.com/startup/vercel-analytics-verceltics": {
     "featured_count": 1,
