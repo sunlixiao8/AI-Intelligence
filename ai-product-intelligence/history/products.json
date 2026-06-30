@@ -559,6 +559,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/shotwise"
   },
+  "trustmrr.com/startup/sociabl": {
+    "featured_count": 1,
+    "first_featured": "2026-06-30",
+    "last_featured": "2026-06-30",
+    "last_score": 11,
+    "name": "Sociabl",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/sociabl"
+  },
   "trustmrr.com/startup/stealth-app-4": {
     "featured_count": 1,
     "first_featured": "2026-06-28",
@@ -619,6 +629,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/tariq-1"
   },
+  "trustmrr.com/startup/truckerdb": {
+    "featured_count": 1,
+    "first_featured": "2026-06-30",
+    "last_featured": "2026-06-30",
+    "last_score": 11,
+    "name": "Truckerdb",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/truckerdb"
+  },
   "trustmrr.com/startup/truthping": {
     "featured_count": 1,
     "first_featured": "2026-06-29",
@@ -668,6 +688,26 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/verifieddr"
+  },
+  "trustmrr.com/startup/vibe-app-scanner": {
+    "featured_count": 1,
+    "first_featured": "2026-06-30",
+    "last_featured": "2026-06-30",
+    "last_score": 11,
+    "name": "Vibe App Scanner",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/vibe-app-scanner"
+  },
+  "trustmrr.com/startup/weeknights": {
+    "featured_count": 1,
+    "first_featured": "2026-06-30",
+    "last_featured": "2026-06-30",
+    "last_score": 11,
+    "name": "Weeknights",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/weeknights"
   },
   "trustmrr.com/startup/zevor-ai": {
     "featured_count": 1,
