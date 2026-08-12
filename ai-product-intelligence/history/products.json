@@ -1029,6 +1029,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/kreatorflowai"
   },
+  "trustmrr.com/startup/label-ai": {
+    "featured_count": 1,
+    "first_featured": "2026-08-12",
+    "last_featured": "2026-08-12",
+    "last_score": 14,
+    "name": "Label AI",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/label-ai"
+  },
   "trustmrr.com/startup/landscapioai": {
     "featured_count": 1,
     "first_featured": "2026-07-14",
@@ -1368,6 +1378,26 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/papernity"
+  },
+  "trustmrr.com/startup/partylio": {
+    "featured_count": 1,
+    "first_featured": "2026-08-12",
+    "last_featured": "2026-08-12",
+    "last_score": 11,
+    "name": "Partylio",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/partylio"
+  },
+  "trustmrr.com/startup/pattrn": {
+    "featured_count": 1,
+    "first_featured": "2026-08-12",
+    "last_featured": "2026-08-12",
+    "last_score": 11,
+    "name": "Pattrn",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/pattrn"
   },
   "trustmrr.com/startup/pepkit-peptide-tracker": {
     "featured_count": 1,
@@ -2048,6 +2078,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/truthping"
+  },
+  "trustmrr.com/startup/unnamed-company-30": {
+    "featured_count": 1,
+    "first_featured": "2026-08-12",
+    "last_featured": "2026-08-12",
+    "last_score": 11,
+    "name": "Unnamed Company 30",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/unnamed-company-30"
   },
   "trustmrr.com/startup/valycode": {
     "featured_count": 1,
