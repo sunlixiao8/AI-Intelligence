@@ -40,10 +40,10 @@
     "url": "https://www.toolify.ai/zh/category/ai-api"
   },
   "toolify.ai/zh/category/ai-sales-assistant": {
-    "featured_count": 1,
+    "featured_count": 2,
     "first_featured": "2026-07-18",
-    "last_featured": "2026-07-18",
-    "last_score": 15,
+    "last_featured": "2026-08-19",
+    "last_score": 13,
     "name": "#AI销售助手",
     "source_name": "Toolify",
     "source_url": "https://www.toolify.ai/zh/",
@@ -218,6 +218,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/alphascope"
+  },
+  "trustmrr.com/startup/analytra": {
+    "featured_count": 1,
+    "first_featured": "2026-08-19",
+    "last_featured": "2026-08-19",
+    "last_score": 11,
+    "name": "Analytra",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/analytra"
   },
   "trustmrr.com/startup/anonymous-startup-31": {
     "featured_count": 1,
@@ -2089,6 +2099,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/strigrow"
   },
+  "trustmrr.com/startup/submitwell": {
+    "featured_count": 1,
+    "first_featured": "2026-08-19",
+    "last_featured": "2026-08-19",
+    "last_score": 11,
+    "name": "Submitwell",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/submitwell"
+  },
   "trustmrr.com/startup/sufler-teleprompter": {
     "featured_count": 1,
     "first_featured": "2026-06-15",
@@ -2178,6 +2198,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/the-eureka-database"
+  },
+  "trustmrr.com/startup/thechatreceipts": {
+    "featured_count": 1,
+    "first_featured": "2026-08-19",
+    "last_featured": "2026-08-19",
+    "last_score": 11,
+    "name": "Thechatreceipts",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/thechatreceipts"
   },
   "trustmrr.com/startup/thefastestweb": {
     "featured_count": 1,
