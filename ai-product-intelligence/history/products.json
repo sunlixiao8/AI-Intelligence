@@ -789,6 +789,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/dailyglowup"
   },
+  "trustmrr.com/startup/datemore": {
+    "featured_count": 1,
+    "first_featured": "2026-08-31",
+    "last_featured": "2026-08-31",
+    "last_score": 11,
+    "name": "Datemore",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/datemore"
+  },
   "trustmrr.com/startup/dateworthy": {
     "featured_count": 1,
     "first_featured": "2026-07-19",
@@ -1548,6 +1558,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/litigator-one"
+  },
+  "trustmrr.com/startup/livecrew": {
+    "featured_count": 1,
+    "first_featured": "2026-08-31",
+    "last_featured": "2026-08-31",
+    "last_score": 11,
+    "name": "Livecrew",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/livecrew"
   },
   "trustmrr.com/startup/map24-com": {
     "featured_count": 1,
@@ -2798,6 +2818,26 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/voicerr-ai"
+  },
+  "trustmrr.com/startup/voisa-ai": {
+    "featured_count": 1,
+    "first_featured": "2026-08-31",
+    "last_featured": "2026-08-31",
+    "last_score": 14,
+    "name": "Voisa AI",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/voisa-ai"
+  },
+  "trustmrr.com/startup/voklit": {
+    "featured_count": 1,
+    "first_featured": "2026-08-31",
+    "last_featured": "2026-08-31",
+    "last_score": 11,
+    "name": "Voklit",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/voklit"
   },
   "trustmrr.com/startup/waifu": {
     "featured_count": 1,
