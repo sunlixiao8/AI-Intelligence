@@ -49,6 +49,16 @@
     "source_url": "https://www.toolify.ai/zh/",
     "url": "https://www.toolify.ai/zh/category/ai-api"
   },
+  "toolify.ai/zh/category/ai-sales": {
+    "featured_count": 1,
+    "first_featured": "2026-09-26",
+    "last_featured": "2026-09-26",
+    "last_score": 15,
+    "name": "#AI销售",
+    "source_name": "Toolify",
+    "source_url": "https://www.toolify.ai/zh/",
+    "url": "https://www.toolify.ai/zh/category/ai-sales"
+  },
   "toolify.ai/zh/category/ai-sales-assistant": {
     "featured_count": 2,
     "first_featured": "2026-07-18",
@@ -2459,6 +2469,16 @@
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/papernity"
   },
+  "trustmrr.com/startup/parola": {
+    "featured_count": 1,
+    "first_featured": "2026-09-26",
+    "last_featured": "2026-09-26",
+    "last_score": 11,
+    "name": "Parola",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/parola"
+  },
   "trustmrr.com/startup/partylio": {
     "featured_count": 1,
     "first_featured": "2026-08-12",
@@ -3018,6 +3038,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/runey"
+  },
+  "trustmrr.com/startup/ryze": {
+    "featured_count": 1,
+    "first_featured": "2026-09-26",
+    "last_featured": "2026-09-26",
+    "last_score": 11,
+    "name": "Ryze",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/ryze"
   },
   "trustmrr.com/startup/sadece-i-slam-namaz-takip-pro": {
     "featured_count": 1,
@@ -3708,6 +3738,16 @@
     "source_name": "TrustMRR",
     "source_url": "https://trustmrr.com/",
     "url": "https://trustmrr.com/startup/vibe-app-scanner"
+  },
+  "trustmrr.com/startup/vibelegit": {
+    "featured_count": 1,
+    "first_featured": "2026-09-26",
+    "last_featured": "2026-09-26",
+    "last_score": 11,
+    "name": "Vibelegit",
+    "source_name": "TrustMRR",
+    "source_url": "https://trustmrr.com/",
+    "url": "https://trustmrr.com/startup/vibelegit"
   },
   "trustmrr.com/startup/vidai-llc": {
     "featured_count": 1,
